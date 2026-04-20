@@ -7,7 +7,7 @@ import {getToken} from "../auth/Cognito.tsx";
 // });
 
 const API = axios.create({
-    baseURL: "habit-backend-env.eba-asjncbp3.us-east-1.elasticbeanstalk.com"
+    baseURL: "http://habit-backend-env.eba-asjncbp3.us-east-1.elasticbeanstalk.com"
 });
 
 
