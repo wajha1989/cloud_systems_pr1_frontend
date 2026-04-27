@@ -1,9 +1,9 @@
-FROM nginx:apline
+FROM nginx:alpine
 
-WORKDIR /urs/share/nginx/html
+WORKDIR /usr/share/nginx/html
 
 COPY dist/ .
 
 EXPOSE 80
 
-CMD ["nginx", "-g", "deamon off;"]
+CMD ["nginx", "-g", "daemon off;"]

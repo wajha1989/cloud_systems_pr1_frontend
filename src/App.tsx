@@ -2,7 +2,7 @@ import {useEffect, useState} from "react";
 import HabitForm from "./components/HabitForm";
 import HabitList from "./components/HabitList";
 import HabitDetails from "./components/HabitDetails";
-import { login, logout } from "./auth/Cognito";
+import { login, logout } from "./auth/Cognito.ts";
 
 export default function App() {
     useEffect(() => {

@@ -1,5 +1,5 @@
 import axios from "axios";
-import {getToken} from "../auth/Cognito.tsx";
+import {getToken} from "../auth/Cognito.ts";
 
 // TODO change this if I ever get to building this app in cloud envrinoment
 // const API = axios.create({
